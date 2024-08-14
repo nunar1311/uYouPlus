@@ -3,18 +3,18 @@
 # pragma mark - YouTube patches
 
 // Fix Google Sign in by @PoomSmart and @level3tjg (qnblackcat/uYouPlus#684)
-%hook NSBundle
-- (NSDictionary *)infoDictionary {
-    NSMutableDictionary *info = %orig.mutableCopy;
-    if ([self isEqual:NSBundle.mainBundle] && [[NSUserDefaults standardUserDefaults] boolForKey:kGoogleSigninFix])
-        info[@"CFBundleIdentifier"] = @"com.google.ios.youtube";
-    return info;
-}
-%end
+// %hook NSBundle
+// - (NSDictionary *)infoDictionary {
+//    NSMutableDictionary *info = %orig.mutableCopy;
+//    if ([self isEqual:NSBundle.mainBundle] && [[NSUserDefaults standardUserDefaults] boolForKey:kGoogleSigninFix])
+//        info[@"CFBundleIdentifier"] = @"com.google.ios.youtube";
+//    return info;
+// }
+// %end
 
-%hook YTHotConfig
-- (BOOL)disableAfmaIdfaCollection { return NO; }
-%end
+// %hook YTHotConfig
+// - (BOOL)disableAfmaIdfaCollection { return NO; }
+// %end
 
 // https://github.com/PoomSmart/YouTube-X/blob/1e62b68e9027fcb849a75f54a402a530385f2a51/Tweak.x#L27
 // %hook YTAdsInnerTubeContextDecorator
@@ -193,19 +193,19 @@ static void refreshUYouAppearance() {
     // }
 
     // Disable broken options
-    
+
     // Disable uYou's auto updates
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"automaticallyCheckForUpdates"];
 
     // Disable uYou's welcome screen (fix #1147)
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"showedWelcomeVC"];
- 
+
     // Disable uYou's disable age restriction
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"disableAgeRestriction"];
 
     // Disable uYou's playback speed controls (prevent crash on video playback https://github.com/therealFoxster/uYouPlus/issues/2#issuecomment-1894912963)
     // [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"showPlaybackRate"];
-    
+
     // Disable uYou's adblock
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"removeYouTubeAds"];
 }
