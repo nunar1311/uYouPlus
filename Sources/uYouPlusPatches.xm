@@ -3,23 +3,23 @@
 # pragma mark - YouTube patches
 
 // Fix Google Sign in by @PoomSmart and @level3tjg (qnblackcat/uYouPlus#684)
-// %hook NSBundle
-// - (NSDictionary *)infoDictionary {
-//    NSMutableDictionary *info = %orig.mutableCopy;
-//    if ([self isEqual:NSBundle.mainBundle] && [[NSUserDefaults standardUserDefaults] boolForKey:kGoogleSigninFix])
-//        info[@"CFBundleIdentifier"] = @"com.google.ios.youtube";
-//    return info;
-// }
-// %end
+%hook NSBundle
+- (NSDictionary *)infoDictionary {
+    NSMutableDictionary *info = %orig.mutableCopy;
+    if ([self isEqual:NSBundle.mainBundle] && [[NSUserDefaults standardUserDefaults] boolForKey:kGoogleSigninFix])
+        info[@"CFBundleIdentifier"] = @"com.google.ios.youtube";
+    return info;
+}
+%end
 
-// %hook YTHotConfig
-// - (BOOL)disableAfmaIdfaCollection { return NO; }
-// %end
+%hook YTHotConfig
+- (BOOL)disableAfmaIdfaCollection { return NO; }
+%end
 
 // https://github.com/PoomSmart/YouTube-X/blob/1e62b68e9027fcb849a75f54a402a530385f2a51/Tweak.x#L27
-// %hook YTAdsInnerTubeContextDecorator
-// - (void)decorateContext:(id)context {}
-// %end
+%hook YTAdsInnerTubeContextDecorator
+- (void)decorateContext:(id)context {}
+%end
 
 # pragma mark - uYou patches
 
