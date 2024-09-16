@@ -1,27 +1,27 @@
 // About
-"ABOUT" = "About";
+"ABOUT" = "Über";
 
 "VERSION" = "uYouPlus-Version: %@";
-"VERSION_CHECK" = "Tippen, um nach Updates zu suchen!";
+"VERSION_CHECK" = "Tippe, um nach Updates zu suchen!";
 
-"REPORT_AN_ISSUE" = "Report an issue";
-"ADD_TITLE" = "Add your title here...";
+"REPORT_AN_ISSUE" = "Melde einen Fehler";
+"ADD_TITLE" = "Füge einen Titel hinzu...";
 
-"COPY_SETTINGS" = "Copy settings";
-"COPY_SETTINGS_DESC" = "Copy all current settings to the clipboard";
-"PASTE_SETTINGS" = "Paste settings";
-"PASTE_SETTINGS_DESC" = "Paste settings from clipboard and apply";
-"PASTE_SETTINGS_ALERT" = "Are you sure you want to paste the settings?";
+"COPY_SETTINGS" = "Einstellungen kopieren";
+"COPY_SETTINGS_DESC" = "Kopiere alle zurzeitigen Einstellungen in die Zwischenablage";
+"PASTE_SETTINGS" = "Füge Einstellungen ein";
+"PASTE_SETTINGS_DESC" = "Füge Einstellungen aus der Zwischenablage ein und wende sie an";
+"PASTE_SETTINGS_ALERT" = "Sind Sie sicher, dass Sie diese Einstellungen einfügen möchten?";
 
-"QUIT_YOUTUBE" = "Quit YouTube";
+"QUIT_YOUTUBE" = "Beende YouTube";
 
-"RESTART_YOUTUBE" = "Restart YouTube to apply changes";
+"RESTART_YOUTUBE" = "Starte YouTube neu, um die Veränderungen zu aktivieren";
 
 // App appearance
-"APP_THEME" = "🎨 App appearance";
-"THEME_OPTIONS" = "Theme Optionen";
+"APP_THEME" = "🎨 App Erscheinungsbild";
+"THEME_OPTIONS" = "Design Optionen";
 
-"DARK_THEME" = "Dark theme";
+"DARK_THEME" = "Dunkler Modus";
 
 "DEFAULT_THEME" = "Standard";
 "DEFAULT_THEME_DESC" = "Standardmäßig dunklerer Modus von YouTube. App-Neustart erforderlich.";
@@ -39,8 +39,8 @@
 // Video player options
 "VIDEO_PLAYER_OPTIONS" = "⏯️ Video-Player-Optionen";
 
-"SLIDE_TO_SEEK" = "Enable slide to seek";
-"SLIDE_TO_SEEK_DESC" = "Bring back the slide to seek gesture.";
+"SLIDE_TO_SEEK" = "Aktiviere slide to seek";
+"SLIDE_TO_SEEK_DESC" = "Bringt die slide to seek Geste zurück";
 
 "DISABLE_DOUBLE_TAP_TO_SEEK" = "Doppeltippen zum Suchen deaktivieren";
 "DISABLE_DOUBLE_TAP_TO_SEEK_DESC" = "";
@@ -54,17 +54,20 @@
 "YT_MINIPLAYER" = "Miniplayer für alle YouTube-Videos aktivieren";
 "YT_MINIPLAYER_DESC" = "z.B. bei Videos für Kinder.";
 
-"HIDE_REMIX_BUTTON" = "Hide Remix button";
+"HIDE_REMIX_BUTTON" = "Verstecke den Remix Knopf";
 "HIDE_REMIX_BUTTON_DESC" = "";
 
-"HIDE_CLIP_BUTTON" = "Hide Clip button";
+"HIDE_CLIP_BUTTON" = "Verstecke den Clip Knopf";
 "HIDE_CLIP_BUTTON_DESC" = "";
 
-"HIDE_DOWNLOAD_BUTTON" = "Hide Download button";
+"HIDE_DOWNLOAD_BUTTON" = "Verstecke den Download Knopf";
 "HIDE_DOWNLOAD_BUTTON_DESC" = "";
 
 "STOCK_VOLUME_HUD" = "Standard iOS Lautstärke HUD aktivieren";
 "STOCK_VOLUME_HUD_DESC" = "";
+
+"REPLACE_YT_DOWNLOAD_WITH_UYOU" = "Ersetze YouTubes Download mit dem von uYou;
+"REPLACE_YT_DOWNLOAD_WITH_UYOU_DESC" = "";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "📹 Video Controls Overlay Optionen";
@@ -114,8 +117,8 @@
 // Miscellaneous
 "MISCELLANEOUS" = "🔎 Sonstiges";
 
-"HIDE_UYOU" = "Hide uYou tab";
-"HIDE_ISPONSORBLOCK" = "Hide iSponsorBlock button";
+"HIDE_UYOU" = "Verstecke den uYou Tab";
+"HIDE_ISPONSORBLOCK" = "Verstecke den iSponsorBlock Knopf";
 
 "CAST_CONFIRM" = "Warnung vor TV-Übertragungen (YTCastConfirm)";
 "CAST_CONFIRM_DESC" = "Zeigt eine Warnung an, um eine ausversehene TV-Übertragung zu verhindern.";
@@ -133,7 +136,7 @@
 "HIDE_CHIP_BAR" = "Obere Leiste ausblenden";
 "HIDE_CHIP_BAR_DESC" = "Obere Leiste in den Home-Feeds (Trends, Musik, Spiele...) und Abo-Feeds (Alle Videos, Weiterschauen...) ausblenden. App-Neustart erforderlich.";
 
-"HIDE_PLAY_NEXT_IN_QUEUE" = "Hide \"Play next in queue\"";
+"HIDE_PLAY_NEXT_IN_QUEUE" = "Verstecke \"Als Nächstes abspielen\"";
 "HIDE_PLAY_NEXT_IN_QUEUE_DESC" = "";
 
 "IPHONE_LAYOUT" = "iPhone Layout";
@@ -151,5 +154,5 @@
 "FIX_GOOGLE_SIGNIN" = "Google-Anmeldung reparieren (nur für TrollStore-Benutzer!)";
 "FIX_GOOGLE_SIGNIN_DESC" = "Aktiviere diese Option nur, wenn Sie sich nicht mit Ihrem Google-Account anmelden können und die App über TrollStore installiert wurde. Wenn Sie sich normal anmelden können, halte diese Option deaktiviert! App-Neustart erforderlich!";
 
-"GOOGLE_SIGNIN_FIX" = "Google sign-in fix";
+"GOOGLE_SIGNIN_FIX" = "Google Anmelde Fehlerbehebung";
 "GOOGLE_SIGNIN_FIX_DESC" = "";
