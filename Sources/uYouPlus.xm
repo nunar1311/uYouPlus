@@ -49,11 +49,20 @@ NSBundle *tweakBundle = uYouPlusBundle();
 // Hide useless buttons under the video player by @PoomSmart
 static BOOL findCell(ASNodeController *nodeController, NSArray <NSString *> *identifiers) {
     for (id child in [nodeController children]) {
+        if ([child isKindOfClass:%c(ELMComponent)]) {
+            if ([[child templateURI] containsString:@"video_action_button_with_vm_input"])
+                return findCell([child materializedInstance], identifiers);
+            for (NSString *identifier in identifiers) {
+                if ([[child templateURI] containsString:identifier])
+                    return YES;
+            }
+        }
+
         if ([child isKindOfClass:%c(ELMNodeController)]) {
             NSArray <ELMComponent *> *elmChildren = [(ELMNodeController *)child children];
             for (ELMComponent *elmChild in elmChildren) {
                 for (NSString *identifier in identifiers) {
-                    if ([[elmChild description] containsString:identifier])
+                    if ([[elmChild templateURI] containsString:identifier])
                         return YES;
                 }
             }
@@ -389,28 +398,6 @@ YTMainAppControlsOverlayView *controlsOverlayView;
     [self varispeedSwitchController:self.varispeedController didSelectRate:rate];
 }
 %end
-
-// Hide search ads by @PoomSmart - https://github.com/PoomSmart/YouTube-X
-// %hook YTIElementRenderer
-// - (NSData *)elementData {
-//     if (self.hasCompatibilityOptions && self.compatibilityOptions.hasAdLoggingData)
-//         return nil;
-//     return %orig;
-// }
-// %end
-
-// %hook YTSectionListViewController
-// - (void)loadWithModel:(YTISectionListRenderer *)model {
-//     NSMutableArray <YTISectionListSupportedRenderers *> *contentsArray = model.contentsArray;
-//     NSIndexSet *removeIndexes = [contentsArray indexesOfObjectsPassingTest:^BOOL(YTISectionListSupportedRenderers *renderers, NSUInteger idx, BOOL *stop) {
-//         YTIItemSectionRenderer *sectionRenderer = renderers.itemSectionRenderer;
-//         YTIItemSectionSupportedRenderers *firstObject = [sectionRenderer.contentsArray firstObject];
-//         return firstObject.hasPromotedVideoRenderer || firstObject.hasCompactPromotedVideoRenderer || firstObject.hasPromotedVideoInlineMutedRenderer;
-//     }];
-//     [contentsArray removeObjectsAtIndexes:removeIndexes];
-//     %orig;
-// }
-// %end
 
 // A/B flags
 %hook YTColdConfig 
