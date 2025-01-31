@@ -57,9 +57,6 @@
 [submodule "Tweaks/NoYTPremium"]
 	path = Tweaks/NoYTPremium
 	url = https://github.com/PoomSmart/NoYTPremium.git
-[submodule "Tweaks/YTSpeed"]
-	path = Tweaks/YTSpeed
-	url = https://github.com/therealFoxster/YTSpeed.git
 [submodule "Tweaks/YouTube-X"]
 	path = Tweaks/YouTube-X
 	url = https://github.com/PoomSmart/YouTube-X/
@@ -69,3 +66,6 @@
 [submodule "Tweaks/YouSpeed"]
 	path = Tweaks/YouSpeed
 	url = https://github.com/PoomSmart/YouSpeed
+[submodule "Tweaks/PSHeader"]
+	path = Tweaks/PSHeader
+	url = https://github.com/PoomSmart/PSHeader.git
