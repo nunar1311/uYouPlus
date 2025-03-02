@@ -44,18 +44,18 @@
 - **Compatibility:** Requires iOS/iPadOS 14.0 or later.
 
 <details>
-  <summary>Version information (last updated: Feb 12, 2025)</summary>
+  <summary>Version information (last updated: Feb 26, 2025)</summary>
 
 | **Tweaks/App** | **Developer** | **Version** | **Open source** |
 | - | - | :-: | :-:  |
-| **YouTube** | Google Inc | 20.06.03 | ✖︎ |
+| **YouTube** | Google Inc | 20.08.3 | ✖︎ |
 | [uYou](https://github.com/MiRO92/uYou-for-YouTube) | [MiRO92](https://twitter.com/miro92) | 3.0.4 | ✖︎ |
-| **Open in YouTube** | [CokePokes](https://github.com/CokePokes) | 1.2 | [✔︎](https://github.com/CokePokes/YoutubeExtensions) |
+| **OpenYoutubeAndShorts** | [CrossiDev-Studio](https://github.com/CrossiDev-Studio) | 1.0 | [✔︎](https://github.com/CrossiDev-Studio/OpenYoutubeAndShorts) |
 | **iSponsorBlock** | [Galactic-Dev](https://github.com/Galactic-Dev) | 1.2.11 | [✔︎](https://github.com/Galactic-Dev/iSponsorBlock) |
 | **BigYTMiniPlayer** | [Galactic-Dev](https://github.com/Galactic-Dev) | 1.0-1 | [✔︎](https://github.com/Galactic-Dev/BigYTMiniPlayer) |
 | **YTNoHoverCards** | [level3tjg](https://twitter.com/level3tjg) | 0.0.3 | [✔︎](https://github.com/level3tjg/YTNoHoverCards) |
 | **YTMiniplayerEnabler** | [level3tjg](https://twitter.com/level3tjg) | 0.0.2 | [✔︎](https://github.com/level3tjg/YTMiniplayerEnabler) |
-| **DontEatMyContent** | [therealFoxster](https://github.com/therealFoxster) | 1.1.9 | [✔︎](https://github.com/therealFoxster/DontEatMyContent) |
+| **DontEatMyContent** | [therealFoxster](https://github.com/therealFoxster) | 1.1.10 | [✔︎](https://github.com/therealFoxster/DontEatMyContent) |
 | **Alderis Color Picker** | [HASHBANG Productions](https://github.com/hbang) | 1.2.3 | [✔︎](https://github.com/hbang/Alderis) |
 | **YTUHD** | [PoomSmart](https://twitter.com/poomsmart) | 1.6.0 | [✔︎](https://github.com/PoomSmart/YTUHD) |
 | **YouPiP** | [PoomSmart](https://twitter.com/poomsmart) | 1.12.7 | [✔︎](https://github.com/PoomSmart/YouPiP) |
@@ -67,10 +67,11 @@
 | **Return YouTube Dislike** | [PoomSmart](https://twitter.com/poomsmart) | 1.13.3 | [✔︎](https://github.com/PoomSmart/Return-YouTube-Dislikes) |
 | **YouMute** | [PoomSmart](https://twitter.com/poomsmart) | 1.3.1 | [✔︎](https://github.com/PoomSmart/YouMute) |
 | **YouQuality** | [PoomSmart](https://twitter.com/poomsmart) | 1.3.5 | [✔︎](https://github.com/PoomSmart/YouQuality) |
-| **YouTube-X** | [PoomSmart](https://twitter.com/poomsmart) | 1.7.9 | [✔︎](https://github.com/PoomSmart/YouTube-X) |
+| **YouTube-X** | [PoomSmart](https://twitter.com/poomsmart) | 1.7.11 | [✔︎](https://github.com/PoomSmart/YouTube-X) |
 | **YTVideoOverlay** | [PoomSmart](https://twitter.com/poomsmart) | 2.2.0 | [✔︎](https://github.com/PoomSmart/YTVideoOverlay) |
 | **YouGroupSettings** | [PoomSmart](https://twitter.com/poomsmart) | 1.0.4 | [✔︎](https://github.com/PoomSmart/YouGroupSettings) |
-| **YouSpeed** | [PoomSmart](https://twitter.com/poomsmart) | 1.2.1 | [✔︎](https://github.com/PoomSmart/YouSpeed) |
+| **YouSpeed** | [PoomSmart](https://twitter.com/poomsmart) | 1.3.0 | [✔︎](https://github.com/PoomSmart/YouSpeed) |
+| **YTClassicVideoQuality** | [PoomSmart](https://twitter.com/poomsmart) | 1.5.1 | [✔︎](https://github.com/PoomSmart/YTClassicVideoQuality) |
 
 </details>
 
@@ -121,6 +122,7 @@ See [Installation - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Installati
 
 - Special thanks to all the developers who have contributed to uYouPlus! 
 
+<div align='center'>
 <table id='credits'>
 <tr align='center'>
     <td id='miro92'>
@@ -151,6 +153,9 @@ See [Installation - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Installati
         <br>
         <a href='https://twitter.com/bandarhl'>BandarHelal</a>
     </td>
+</tr>
+    
+<tr align='center'>
     <td id='galactic-dev'>
         <a href='https://github.com/Galactic-Dev'>
             <img src='https://github.com/Galactic-Dev.png' width='140px;'>
@@ -158,9 +163,6 @@ See [Installation - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Installati
         <br>
         <a href='https://twitter.com/dev_galactic'>galactic</a>
     </td>
-</tr>
-    
-<tr align='center'>
     <td id='julioverne'>
         <a href='https://github.com/julioverne'>
             <img src='https://github.com/julioverne.png' width='140px;'>
@@ -182,6 +184,9 @@ See [Installation - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Installati
         <br>
         <a href='https://github.com/Lyvendia'>Lyvendia</a>
     </td>
+</tr>
+  
+<tr align='center'>
     <td id='foxster'>
         <a href='https://github.com/therealFoxster'>
             <img src='https://github.com/therealFoxster.png' width='140px;'>
@@ -196,9 +201,6 @@ See [Installation - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Installati
         <br>
         <a href='https://twitter.com/ichitaso'>ichitaso</a>
     </td>
-</tr>
-  
-<tr align='center'>
     <td id='ahmed-bafkir'>
         <a href='https://github.com/AhmedBafkir'>
             <img src='https://github.com/AhmedBafkir.png' width='140px;'>
@@ -213,6 +215,9 @@ See [Installation - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Installati
         <br>
         <a href='https://twitter.com/cokepokes'>CokePokes</a>
     </td>
+</tr>
+
+<tr align='center'>
     <td id='isnackable'>
         <a href='https://github.com/ISnackable'>
             <img src='https://github.com/ISnackable.png' width='140px;'>
@@ -234,8 +239,16 @@ See [Installation - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Installati
         <br>
         <a href='https://https://twitter.com/t70438299'>qnblackcat</a>
     </td>
-</tr>
+    <td id='crossidev-studio'>
+        <a href='https://github.com/CrossiDev-Studio'>
+            <img src='https://github.com/CrossiDev-Studio.png' width='140px;'>
+        </a>
+        <br>
+        <a href='https://github.com/CrossiDev-Studio'>CrossiDev-Studio</a>
+    </td>
+</tr>            
 </table>
+</div>
 
 ## Support the developers!
 
